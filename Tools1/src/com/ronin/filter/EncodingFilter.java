@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 
 
 public class EncodingFilter implements Filter {
-	private String charset = "UTF-8";
+	private String charset ;
 	@Override
 	public void destroy() {}
 
