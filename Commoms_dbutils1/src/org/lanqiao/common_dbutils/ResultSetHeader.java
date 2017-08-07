@@ -130,7 +130,7 @@ public class ResultSetHeader {
 		 * 但是可以转换为其本身的类型
 		 */
 //		Integer count = (Integer)qr.query(sql,new ScalarHandler());
-		Long longCount = (Long)qr.query(sql,new ScalarHandler());
+		Number longCount = (Long)qr.query(sql,new ScalarHandler());
 		System.out.println(longCount);
 		//那么如何查看这个返回值的数据类型呢？
 		System.out.println("全类名："+count.getClass().getName());

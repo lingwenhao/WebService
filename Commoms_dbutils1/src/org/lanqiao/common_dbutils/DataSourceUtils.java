@@ -10,7 +10,7 @@ import javax.sql.DataSource;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 public class DataSourceUtils {
-	private static ComboPooledDataSource ds = new ComboPooledDataSource();
+	private static ComboPooledDataSource ds = new ComboPooledDataSource("oracle-config");
 	/**
 	 * 获取数据源(连接池)
 	 * @return
