@@ -18,6 +18,9 @@ import org.junit.Test;
  *
  */
 public class CommonUtils {
+	public static void main(String[] args) {
+		System.out.println(UUID.randomUUID().toString().replace("-", "").toUpperCase());
+	}
 	public static String uuid() {
 		/**
 		 * 结果:返回一个不重复的字符串
